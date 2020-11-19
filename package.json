@@ -1,0 +1,29 @@
+{
+  "name": "random-gag",
+  "version": "1.0.0",
+  "description": "Random 9gag post API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"working\""
+  },
+  "funding": "https://theabbie.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theabbie/random-gag.git"
+  },
+  "keywords": [
+    "theabbie",
+    "9gag",
+    "random"
+  ],
+  "author": "theabbie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theabbie/random-gag/issues"
+  },
+  "homepage": "https://github.com/theabbie/random-gag#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "unshorten.it": "^1.0.0"
+  }
+}
