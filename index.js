@@ -1,9 +1,11 @@
 var axios = require("axios");
 var unshort = require("unshorten.it");
 
-module.exports = async function() {
-  var gag = await unshort("https://9gag.com/shuffle");
-  var gag_id = gag.split("/").reverse()[0];
+module.exports = async function(gag_id) {
+  if (!gag_id) {
+    var gag = await unshort("https://9gag.com/shuffle");
+    var gag_id = gag.split("/").reverse()[0];
+  }
   var headers = {
     'Host': 'api.9gag.com',
     'user-agent': '9GAG/6920200 (Xiaomi Redmi Note 7 Pro;Android 10)',
