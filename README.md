@@ -1,13 +1,14 @@
-# random-gag
+# Random 9gag post API
 ![Random 9gag Post](https://user-images.githubusercontent.com/17960677/99623827-f4579f00-2a52-11eb-85d7-914da5fed9bf.png)
 >**Random 9gag post API**
 
 ## Example
 
 ```js
-var rg = require("random-gag")
-
-await rg();
+var rg = require("random-gag");
+(async function() {
+await rg(); //or, "await rg(gag_id)" to fetch specific post
+})();
 ```
 
 **Sample Output**
