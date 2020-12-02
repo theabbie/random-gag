@@ -1,6 +1,6 @@
 {
   "name": "random-gag",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Random 9gag post API",
   "main": "index.js",
   "scripts": {
