@@ -6,7 +6,7 @@ var uuid = 'v6-1605760737061-17c8efdf-00ea-42bf-8a09-2dc50b9c417a';
 var appid = 'com.ninegag.android.app';
 var ts = Date.now().toString();
 //var token = crypto.createHash('sha1').update(ts).digest('hex');
-var token = 'Y29tLm5pbmVnYWcuYW5kcm9pZC5hcHAqM3V3djJmdGVz';
+var token = 'Y29tLm5pbmVnYWcuYW5kcm9pZC5hcHAqMmN5czhscXpw';
 var sig = crypto.createHash('sha1').update(`*${ts}_._${appid}._.${uuid}9GAG`).digest('hex');
 
 module.exports = async function(gag_id) {
